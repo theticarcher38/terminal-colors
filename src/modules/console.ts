@@ -1,26 +1,30 @@
 import { message } from './types';
 import {
-    errColor,
-    warnColor,
-    infoColor,
+    red,
+    yellow,
+    green,
  } from './colors';
 
 export class Console {
 
     err (consoleLogMessage: message) {
-        console.error(errColor(consoleLogMessage));
+        console.error(red(consoleLogMessage));
     }
 
     warn (consoleLogMessage: message) {
-        console.warn(warnColor(consoleLogMessage));
+        console.warn(yellow(consoleLogMessage));
     }
 
     info (consoleLogMessage: message) {
-        console.info(infoColor(consoleLogMessage));
+        console.info(green(consoleLogMessage));
     }
 
     table (...args: any[]) {
         console.table(...args);
+    }
+
+    customColor (consoleLogMessage: message) {
+        console.info(yellow(consoleLogMessage));
     }
 
 }
