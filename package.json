@@ -1,6 +1,6 @@
 {
   "name": "terminal-styling",
-  "version": "1.0.2",
+  "version": "1.0.51",
   "description": "A npm package to add some styling to terminal output",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "yarn build",
-    "publish": "yarn publish"
+    "prepare": "npm run build",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.9",
-    "ts-node": "^10.0.0"
+    "ts-node": "^10.9.1"
   }
 }

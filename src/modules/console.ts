@@ -1,4 +1,5 @@
 import { message } from './types';
+const chalk = require('chalk');
 import {
     red,
     yellow,
@@ -23,8 +24,9 @@ export class Console {
         console.table(...args);
     }
 
-    customColor (consoleLogMessage: message) {
-        console.info(yellow(consoleLogMessage));
+    customColor (hex: string, consoleLogMessage: message) {
+        const color = chalk.hex(hex);
+        console.log(color(consoleLogMessage));
     }
 
 }

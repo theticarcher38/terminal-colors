@@ -23,4 +23,7 @@ console.warn("This is my warning message");
 // Changes terminal output to green
 console.info("This is my info message");
 
+// Allows the user to use custom colors
+console.customColor('Hex Code', 'This is my custom color message');
+
 ```
