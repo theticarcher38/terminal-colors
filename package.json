@@ -1,6 +1,6 @@
 {
   "name": "terminal-styling",
-  "version": "1.0.51",
+  "version": "1.1.0",
   "description": "A npm package to add some styling to terminal output",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

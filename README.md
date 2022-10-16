@@ -24,6 +24,6 @@ console.warn("This is my warning message");
 console.info("This is my info message");
 
 // Allows the user to use custom colors
-console.customColor('Hex Code', 'This is my custom color message');
+console.customColor(<'Hex Code'>, <is_bold: true || false> <'This is my custom color message'> ['Background Hex']);
 
 ```
