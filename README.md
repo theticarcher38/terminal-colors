@@ -2,6 +2,10 @@
 
 A npm package to add some styling to terminal output
 
+**Does Not Work With JavaScript**
+**Currently supports typescript**
+**Working on a JavaScript Fix**
+
 ## Installation
 
 ```sh
